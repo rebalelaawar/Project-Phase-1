@@ -35,3 +35,19 @@ function addCarImage(bmw){
     horsepowerElement.textContent = bmw.horsepower
     torqueElement.textContent = bmw.torque
 }
+
+const commentForm = document.getElementById('comments-form')
+
+commentForm.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    const commentInput = document.getElementById('comment-input')
+    const detailSection = document.getElementById('detail-comment-section')
+
+    const sum = (detailSection.textContent) + (commentInput.value)
+
+    detailSection.textContent = sum
+
+    commentForm.reset()
+
+})
