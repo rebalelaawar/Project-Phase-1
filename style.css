@@ -5,14 +5,43 @@ header img {
     
 }
 body{
-    background-color: lightskyblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
+    background: linear-gradient(to bottom, #29a5c8, #161f61);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(241, 241, 241);
+    
+    
   
 }
 #details-image{
     width: 300px;
-    border-style:ridge;
-    border-color: whitesmoke;
+    border: 4px;
+    border-style:solid;
+    border-color: black;
+    box-shadow: 3px;
+    justify-content: center;
 }
+
+.model-details{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    gap: 40px;
+
+    
+
+}
+header {
+    border-bottom:2px, rgb(107, 107, 107);
+}
+
+.model-list h5:hover{
+   filter: drop-shadow(0 0 0.75em rgb(88, 5, 5));
+
+}
+hr{
+    border-color: black;
+    border-style: dotted;
+    border-width: 3px;
+}
+
 
