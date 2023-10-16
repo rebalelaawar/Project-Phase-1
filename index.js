@@ -7,7 +7,6 @@ fetch('http://localhost:3000/model')
     cars.forEach(car => {
         addModelNamesToList(car)
 
-  
 
     })
 })
@@ -15,6 +14,10 @@ fetch('http://localhost:3000/model')
 function addModelNamesToList(bmw){
     const createList = document.createElement("h5")
     createList.textContent = bmw.name
+    createList.addEventListener('click', () => {
+        addCarImage(bmw)
+    })
+
     const modelList = document.querySelector(".model-list")
     modelList.append(createList)
     
@@ -24,5 +27,11 @@ function addCarImage(bmw){
     const carImage = document.getElementById("details-image")
     carImage.src = bmw.image
 
-    const yearsProducedElement = document.getElementById
+    const yearsProducedElement = document.getElementById('model-year')
+    const horsepowerElement = document.getElementById('model-horsepower')
+    const torqueElement = document.getElementById('model-torque')
+
+    yearsProducedElement.textContent = bmw.years_produced 
+    horsepowerElement.textContent = bmw.horsepower
+    torqueElement.textContent = bmw.torque
 }
