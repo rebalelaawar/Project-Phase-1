@@ -1,0 +1,46 @@
+{
+  "model": [
+    {
+      "name": "BMW E30",
+      "years_produced": "1986-1991",
+      "image": "https://cdn.motor1.com/images/mgl/m6K7e/s3/bmw-e30-m3-by-redux.jpg",
+      "horsepower": "215 hp",
+      "torque": "170 lb-ft"
+    },
+    {
+      "name": "BMW E36",
+      "years_produced": "1995-1999",
+      "image": "https://cdn.bmwblog.com/wp-content/uploads/2017/08/BMW-M3-GT-E36-17.jpg",
+      "horsepower": "321 hp",
+      "torque": "258 lb-ft"
+    },
+    {
+      "name": "BMW E46",
+      "years_produced": "2000-2006",
+      "image": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/bmw-m3-csl/bmw-m3-csl-si.jpg",
+      "horsepower": "343 hp",
+      "torque": "270 lb-ft"
+    },
+    {
+      "name": "BMW E92",
+      "years_produced": "2008-2013",
+      "image": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/m3-e90-portraet/bmw-m3-e92-ai-01.jpg.asset.1599556493838.jpg",
+      "horsepower": "414 hp",
+      "torque": "296 lb-ft"
+    },
+    {
+      "name": "BMW F82",
+      "years_produced": "2014-2019",
+      "image": "https://images8.alphacoders.com/485/485354.jpg",
+      "horsepower": "425 hp",
+      "torque": "406 lb-ft"
+    }
+    {
+      "name": "BMW G82",
+      "years_produced": "2020-Present",
+      "image": "https://www.hdcarwallpapers.com/download/bmw_g80_m3_5k-3840x2160.jpg",
+      "horsepower": "503 hp",
+      "torque": "479 lb-ft"
+    }
+  ]
+}
