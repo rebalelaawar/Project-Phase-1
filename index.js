@@ -34,4 +34,23 @@ function addCarImage(bmw){
     yearsProducedElement.textContent = bmw.years_produced 
     horsepowerElement.textContent = bmw.horsepower
     torqueElement.textContent = bmw.torque
-}
+    
+    
+    }
+
+const commentForm = document.getElementById('comments-form')
+
+commentForm.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    const commentInput = document.getElementById('comment-input').value
+    const detailSection = document.getElementById('detail-comment-section')
+
+    const newComment = document.createElement('p');
+    newComment.textContent = commentInput;
+
+
+    detailSection.appendChild(newComment)
+    commentForm.reset()
+
+})
