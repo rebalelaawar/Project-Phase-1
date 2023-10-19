@@ -4,7 +4,7 @@
       "name": "BMW E30",
       "years_produced": "1986-1991",
       "image": [
-        "https://cdn.motor1.com/images/mgl/m6K7e/s3/bmw-e30-m3-by-redux.jpg",
+        "https://i.pinimg.com/originals/63/17/5e/63175e8ff271ba5d000ac738600c1814.jpg",
         "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-m3-e30/bmw-m3-e30-article-image-01.jpg.asset.1597677254045.jpg",
         "https://i.ebayimg.com/images/g/i8gAAOSw05VghQys/s-l1200.webp",
         "https://i.redd.it/ggo7lg0h47561.jpg"
@@ -16,7 +16,7 @@
       "name": "BMW E36",
       "years_produced": "1995-1999",
       "image": [
-        "https://cdn.bmwblog.com/wp-content/uploads/2017/08/BMW-M3-GT-E36-17.jpg",
+        "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-m3-e36/bmw-e36-m3-double-image-background.jpg",
         "https://s3.eu-central-1.amazonaws.com/modellchen.com/Bilder_ohne/BMW_e36_M3_GT_Coupe_1995_gruen_Modellauto_S1803907_Solido_18_Seite.jpg",
         "https://cdn.bmwblog.com/wp-content/uploads/2016/01/E36-BMW-M3-race-track-2.jpg",
         "https://cdn.bmwblog.com/wp-content/uploads/2017/06/BMW-E36-M3-GT-27.jpg"
@@ -28,7 +28,7 @@
       "name": "BMW E46",
       "years_produced": "2000-2006",
       "image": [
-        "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/bmw-m3-csl/bmw-m3-csl-si.jpg",
+        "https://wallpapercave.com/wp/W5bHkm6.jpg",
         "https://hips.hearstapps.com/hmg-prod/images/bmw-e46-m3-rear-1594403557.png",
         "https://machineswithsouls.com/wp-content/uploads/2021/11/e46-m3.jpg",
         "https://i.redd.it/or6p8edyejp51.jpg"
@@ -40,8 +40,8 @@
       "name": "BMW E92",
       "years_produced": "2008-2013",
       "image": [
-      "https://cdn.shopify.com/s/files/1/0747/8713/files/Studio_RSR_E92_M3_Melbourne_Red-7.jpg?v=1484620379",
       "https://www.carscoops.com/wp-content/uploads/2022/04/2011-BMW-M3-GTS-tribute-clone-00008-copy-1024x555.jpg",
+      "https://cdn.shopify.com/s/files/1/0747/8713/files/Studio_RSR_E92_M3_Melbourne_Red-7.jpg?v=1484620379",
       "https://bimmerplug.com/cdn/shop/products/LCI-OLED-Rear-Taillights-BMW-E92-M3-3-Series-5_800x.jpg?v=1670905813",
       "https://i.pinimg.com/1200x/32/cd/15/32cd15c824ee7b55f56804e2f22e518d.jpg"
       ],
@@ -52,9 +52,9 @@
       "name": "BMW F82",
       "years_produced": "2014-2019",
       "image": [
+        "https://bimmerplug.com/cdn/shop/products/PSM-Style-Carbon-Fiber-Front-Lip-BMW-F80-M3-F82-F83-M4_1024x.jpg?v=1673238649",
         "https://images8.alphacoders.com/485/485354.jpg",
         "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/m3-f80-f82-portraet/bmw-m3-f82-ai-03.jpg.asset.1600262828978.jpg",
-        "https://www.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/18595-blackhawk-bmw-silverbliue/.thumbnails/20220110_143854.jpg/20220110_143854-tiny-2048x0-0.5x0.jpg",
         "https://www.carscoops.com/wp-content/uploads/2014/01/affa10bf-bmw-m3-25253dm4-425255b325255d.jpg"
       ],
       "horsepower": "425 hp",
@@ -64,8 +64,8 @@
       "name": "BMW G82",
       "years_produced": "2020-Present",
       "image": [
-        "https://www.hdcarwallpapers.com/download/bmw_g80_m3_5k-3840x2160.jpg",
         "https://cdn.bmwblog.com/wp-content/uploads/2022/10/adro-kit-bmw-01.jpg",
+        "https://www.hdcarwallpapers.com/download/bmw_g80_m3_5k-3840x2160.jpg",
         "https://images.squarespace-cdn.com/content/v1/588fc0fe1e5b6ce62d8420e8/1648005169303-BWA4VTWAPAJC8DXMOIAD/BM0880B.png?format=2500w",
         "https://i.redd.it/11b5lpkjvxk91.jpg"
       ],
