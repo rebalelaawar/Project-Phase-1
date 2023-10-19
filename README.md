@@ -28,4 +28,4 @@ Contributions to this project are welcome. Please follow these guidelines:
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and test them.
 4. Submit a pull request.
->>>>>>> 474ff2841ef8e4b455902ee1754ab6ae91d371f3
+
