@@ -1,43 +1,57 @@
 <!DOCTYPE html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>BMW M3 GENERATIONS</h1>
+    <header class="nav-bar">
         <img src="https://logos-world.net/wp-content/uploads/2022/03/BMW-M-Emblem.png">
+        <h1>BMW M3 GENERATIONS</h1>
     </header>
-    <hr/>
-    <div class="container">
+    
+
+
+
+
+    <section class="model-details">
         <nav class="model-list">
             <!--add the list of BMW M3 Models here -->
+
         </nav>
-        
-    
-    <section class="model-details">
+
+
         <!--add the details of the BMW M3 Models here-->
-        <img id="details-image" src=""/>
-        <!-- <div id="details-image"></div> -->
-        <div>
-        <h1 id="model-name"></h1>
-        <h2 id="model-year"></h2>
-        <h3 id="model-horsepower"></h3>
-        <h4 id="model-torque"></h4>
-        </section>
-        
-        <h3>Comments: <span id="detail-comment-section"></span></span></h3>
-        <div class="comments-container">
-            <div id="comments-section">
-            <!--comments go here!-->    
+        <img id="details-image" src="" />
+        <div class="car-specs">
+            
+            <section>
+                <div>
+                    <h1 id="model-name"></h1>
+                    <h2 id="model-year"></h2>
+                    <h3 id="model-horsepower"></h3>
+                    <h4 id="model-torque"></h4>
+                </div>
+            </section>
+            <section>
+                <div class="comments-container">
+                    <h3>Comments: <span id="detail-comment-section"></span></span></h3>
+                    <div id="comments-section">
+                        <!--comments go here!-->
+                        <form id="comments-form">
+                            <input id="comment-input" type="text" />
+                            <input type="submit" />
+                        </form>
+                    </div>
+                </div>
+                <div id="moving-image"></div>
+            </section>
         </div>
-        <form id="comments-form">
-            <input id="comment-input" type="text" />
-            <input type="submit" />
-        </form>
-        </div>
+        <img id="external-image" src="https://cms1.limelightplatform.com/binaries/original/content/gallery/publishing/gridimage/brands/243/BMW_UDM_Horizontal_v1_White.png" alt="External Image">
+
     </section>
-    </div>
+
     <script defer src="index.js"></script>
 </body>
-</html>
 
+</html>

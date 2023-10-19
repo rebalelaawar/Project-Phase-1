@@ -1,39 +1,70 @@
-header img {
-    width: 250px;
+html{
+    height: 100%;
+}
+.nav-bar{
+    background: linear-gradient(to bottom, #29a5c8, #161f61);
+    display: flex;
+    padding: 5px;
+}
+
+.nav-bar img {
+    width: 220px;
     height: auto;
     
+}
+
+.nav-bar h1{
+    align-self: center;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
     
 }
+
 body{
-    background: linear-gradient(to bottom, #29a5c8, #161f61);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*  */
+    font-family:'Times New Roman', Times, serif;
     color: rgb(241, 241, 241);
+    background: rgb(59,60,62);
+    background: linear-gradient(0deg, rgba(59,60,62,1) 5%, rgba(27,27,27,1) 61%);
+    height: max-content;
+    background-repeat: no-repeat;
+     background-size: 100%;
+     margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100%;
     
     
   
 }
 #details-image{
-    width: auto;
-    height: 300px;
+    max-height: 350px;
     border: 4px;
-    border-style:solid;
+    max-width: 600px;
+
+    border-style:inset;
     border-color: black;
+    transition: border 0.3s;
     box-shadow: 3px;
     display: flex;
-    margin-top: -200px;
+
+    
+
+    &:hover{
+        border: 2px solid rgb(44, 41, 41);
+    }
     
 }
 
 .model-details{
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
-    gap: 40px;
-    align-items: center;
-    justify-content: center; 
-    align-items: center;     
-
-    
+    display:flex; 
+    width: auto;
+    margin: 20px;
+    align-self: center;
+    justify-content: space-evenly;
 
 }
 
@@ -48,18 +79,31 @@ header {
    
 
 }
-hr{
-    border-color: black;
-    border-style: dotted;
-    border-width: 3px;
+
+.model-list {
+  width: fit-content;
+  padding: 10px;
+  font-size: 26px;
+
+}
+#model-name{
+    font-size: 38px;
 }
 
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    font-size: 3em;
-    
+.model-list h5{
+    margin: 0px 0px;
+    margin-bottom: 40px;
 }
+
+hr{
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    border-width: 3px;
+  
+
+}
+
+
 
 h2{
     
@@ -69,19 +113,38 @@ h2{
     gap: 40px;
 }
 
-input[type=submit] {
-    border: 0;
-    width: 7%;
-    color: black;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    box-sizing: border-box;
-    margin-top: 10px;
 
-    
+#detail-comment-section{
+    font-size: 14px;
 }
 
 
+.car-specs{
+    width: fit-content;
+    padding: 20px;
 
+}
+
+#external-image {
+    width: 500px; 
+    position: absolute;
+    bottom: 130px; 
+    left: 50%; 
+    animation: moveLeftAndRight 10s linear infinite;
+
+  }
+  @keyframes moveLeftAndRight {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%; 
+    }
+  }
+
+  
+  
+  
+  
+  
+  

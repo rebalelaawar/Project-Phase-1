@@ -1,9 +1,12 @@
+
 fetch('http://localhost:3000/model')
 .then(resp => resp.json())
 .then(cars => {
+
     addCarImage(cars[0])
 
     cars.forEach(car => {
+
         addModelNamesToList(car)
 
     })
@@ -55,7 +58,6 @@ function addCarImage(bmw){
     horsepowerElement.textContent = bmw.horsepower
     torqueElement.textContent = bmw.torque
     modelNameElement.textContent = bmw.name
-    
 
     }
 
@@ -71,10 +73,16 @@ commentForm.addEventListener('submit', (event) => {
     newComment.textContent = commentInput;
 
 
+
     detailSection.appendChild(newComment)
     commentForm.reset()
 
 })
 
+const externalImage = document.getElementById("external-image");
+
+const externalImagePath = "https://cms1.limelightplatform.com/binaries/original/content/gallery/publishing/gridimage/brands/243/BMW_UDM_Horizontal_v1_White.png"; // Replace with the actual path
+
+externalImage.src = externalImagePath;
 
 
